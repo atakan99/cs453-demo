@@ -25,6 +25,9 @@ def bubble_sort(collection):
     >>> bubble_sort(collection) == sorted(collection)
     True
     """
+	
+	#here is important, look at this
+	
     length = len(collection)
     for i in range(length - 1):
         swapped = False
